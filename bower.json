@@ -1,0 +1,19 @@
+{
+  "name": "ces_preach",
+  "homepage": "https://github.com/zhonger/ces_preach",
+  "authors": [
+    "zhonger <wuwozhonger@gmail.com>"
+  ],
+  "description": "学院分流宣讲",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "test",
+    "tests"
+  ]
+}

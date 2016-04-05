@@ -15,5 +15,8 @@
     "src",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "deck.js": "^1.1.0"
+  }
 }

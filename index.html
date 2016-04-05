@@ -34,30 +34,41 @@
             font-size: 2.6em;
         }
         h2{
-            font-size: 2.3em;
+            font-size: 2.0em;
         }
-        ul li{
+        h3{
+            color: #607890;
+        }
+        ul.plist li{
+            float: left;
+            width: 50%;
+            text-align: center;
             list-style-type: none;
         }
-        ul.list{
+        ul.list li{
             font-size: 0.7em;
+            font-weight: 500;
+            list-style-type: none;
         }
-        ol.list{
-            width:300px;
-            margin: 0 auto;
+        strong{
+            color: #fff;
+            background-color: #c00;
+        }
+        blockquote{
+            font-size: 1.9em;
         }
     </style>
 </head>
 <body>
     <div class="deck-container">
         <section class="slide" id="title">
-            <h1>欢迎选择计算机工程与科学学院！</h1>
+            <h1>计算机工程与科学学院<br/>欢迎大家！</h1>
         </section>
         <section class="slide" id="about">
             <h2>About Me</h2>
             <ul>
                 <li>
-                    <p>李盛洲<code><small>12级</small></code></p>
+                    <p>李盛洲<code><small>（12级本科生，未来会在上大读研）</small></code></p>
                     <h3>大学所获荣誉：</h3>
                     <ul class="list">
                         <li>2012~2013年度上海大学优秀学生干部</li>
@@ -74,30 +85,76 @@
                         <li>2012~2013年度  上海大学南八楼楼管会生活部部长</li>
                         <li>2013~2014年度  上海大学慈善爱心屋义工队物资管理部部长</li>
                         <li>2014~2015年度  上海大学慈善爱心屋义工队队长</li>
-
                     </ul>
                 </li>
             </ul>
         </section>
         <section class="slide" id="list">
             <h2>Preach List</h2>
-            <ol class="list">
+            <ul class="plist">
                 <li>
+                    <img src="study.png" alt="study">
                     <h3>学习在CES</h3>
                 </li>
                 <li>
-                    <h3>生活在CES</h3>
+                    <img src="future.jpg" alt="future">
+                    <h3>未来在CES</h3>
                 </li>
-                <li>
-                    <h3>就业在CES</h3>
+            </ul>
+        </section>
+        <section class="slide" id="cin_0">
+            <h2>学习在CES</h2>
+            <p></p>
+            <ol>
+                <li class="slide">
+                    <h3>教学计划设计<strong>合理</strong></h3>
+                    <ul>
+                        <li>每学期不超过四门专业基础课程，学期总学分稳定在25分左右</li>
+                        <li>除毕业设计之外，大四之前基本可以修完所有课程</li>
+                        <li>专业基础课“五·五”开，专业选修课“三·八”开</li>
+                    </ul>
+                    
+                </li>
+                <li class="slide">
+                    <h3>课程视野<strong>广泛</strong>，学有所得</h3>
+                    <ul>
+                        <li>从计算机基础的硬件、汇编语言，到高级语言程序编写、APP、网页、网站、并行计算，肯学就行</li>
+                        <li>生产实习，轻松学会组装台式机、自制网线</li>
+                    </ul>
+                </li>
+                <li class="slide">
+                    <h3>"课程设计"选择<strong>自主</strong>，双向选择占主导</h3>
+                    <ul>
+                        <li>一些专业选修课有课程设计，设计的主题和内容只要符合课程范围随意选</li>
+                        <li>毕业设计分自拟、校内、校外三种，想要哪种就哪种</li>
+                    </ul>
+                </li>
+                <li class="slide">
+                    <h3>计算思维“<strong>导师</strong>”课程</h3>
+                    <ul>
+                        <li>学习有帮手，思考有方向，创新有点子</li>
+                        <li>就业、考研也有裨益</li>
+                    </ul>
                 </li>
             </ol>
         </section>
-        <section class="slide" id="cin_0">
-            <h2>欢迎选择计算机工程与科学学院！</h2>
-        </section>
         <section class="slide" id="cout_0">
-            <h2>欢迎选择计算机工程与科学学院！</h2>
+            <h2>未来在CES</h2>
+            <ol>
+                <li class="slide">
+                    <p>Linux镜像源(http://mirrors.shuosc.org/)-上海高校第二家</p>
+                </li>
+                <li class="slide">
+                    <p>春季校招中招聘岗位50%以上为计算机及其相关专业</p>
+                </li>
+                <li class="slide">
+                    <p>本科毕业生入职起薪在6000~8000左右</p>
+                </li>
+                <li class="slide">
+                    <p>保研名额在21个左右，考研分数线——国家线</p>
+                </li>
+            </ol>
+            <blockquote class="slide">What you want is just here!</blockquote>
         </section>
         <section class="slide" id="Q&A">
             <h1>Q&A</h1>
@@ -109,8 +166,8 @@
         </div>
         <!--页数-->
         <p class="deck-status" aria-role="status">
-            Content by <a href="http://blog.wl27.cn" target="_blank">zhonger</a>
-             | Power by <a href="http://imakewebthings.com/deck.js/" target="_blank">imakewebthins</a> | Pages:
+            Create by <a href="http://blog.wl27.cn" target="_blank">zhonger</a>
+             | Power by <a href="http://imakewebthings.com/deck.js/" target="_blank">deck.js</a> | Pages:
             <span class="deck-status-current"></span>
             /
             <span class="deck-status-total"></span>
